@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Enlace a CSS de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  
+    <!-- Enlace a Fuentes de Google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
@@ -43,10 +43,6 @@
           </li>
 
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
@@ -55,135 +51,397 @@
   <main class="container">
     <center><h1>Calzado Mujeres</h1></center>
     <div class="row">
-      <!-- Card 1 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/nike_jordan.png" class="card-img-top" alt="Zapatilla 1">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 1</h5>
-            <p class="card-text">Nike dunk low </p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/nike1.png" class="card-img-top" alt="Zapatilla 2">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 2</h5>
-            <p class="card-text">Nike dunk sb </p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/nike2.png" class="card-img-top" alt="Zapatilla 3">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 3</h5>
-            <p class="card-text">Nike dunk low green</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 4 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/nike3.png" class="card-img-top" alt="Zapatilla 4">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 4</h5>
-            <p class="card-text">Jordan 4 Frozen Moments</p>
-          </div>
-        </div>
-      </div>
+<!-- Card 1 -->
+<div class="col-md-3">
+  <div class="card">
+    <img src="../img/nike_jordan.png" class="card-img-top" alt="Zapatilla 1" data-bs-toggle="modal" data-bs-target="#modal1">
+    <div class="card-body">
+      <h5 class="card-title">Nike dunk low</h5>
+      <p class="card-text">Zapatillas Nike para mujer</p>
+      <p class="card-text">$239.999</p>
     </div>
+  </div>
+</div>
 
-    <div class="row mt-4">
-      <!-- Card 5 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/adidas3.png" class="card-img-top" alt="Zapatilla 5">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 5</h5>
-            <p class="card-text">Nike dunk low pink</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 6 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/adidas4.png" class="card-img-top" alt="Zapatilla 6">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 6</h5>
-            <p class="card-text">Nike Blazer Mid 77</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 7 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/adidas5.png" class="card-img-top" alt="Zapatilla 7">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 7</h5>
-            <p class="card-text">Nike Air Force 1 </p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 8 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/adidas6.png" class="card-img-top" alt="Zapatilla 8">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 8</h5>
-            <p class="card-text">Adias 4DFWD</p>
-          </div>
-        </div>
-      </div>
+<!-- Card 2 -->
+<div class="col-md-3">
+  <div class="card">
+    <img src="../img/nike1.png" class="card-img-top" alt="Zapatilla 2" data-bs-toggle="modal" data-bs-target="#modal2">
+    <div class="card-body">
+      <h5 class="card-title">Nike dunk sb</h5>
+      <p class="card-text">Zapatillas Nike para mujer</p>
+      <p class="card-text">$209.999</p>
     </div>
+  </div>
+</div>
 
-    <div class="row mt-4">
-      <!-- Card 9 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/nike_mujer.png" class="card-img-top" alt="Zapatilla 9">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 9</h5>
-            <p class="card-text">Adias Adizero </p>
-          </div>
-        </div>
+<!-- Card 3 -->
+<div class="col-md-3">
+  <div class="card">
+    <img src="../img/nike2.png" class="card-img-top" alt="Zapatilla 3" data-bs-toggle="modal" data-bs-target="#modal3">
+    <div class="card-body">
+      <h5 class="card-title">Nike dunk low green</h5>
+      <p class="card-text">Zapatillas Nike para mujer</p>
+      <p class="card-text">$239.999</p>
+    </div>
+  </div>
+</div>
+
+<!-- Card 4 -->
+<div class="col-md-3">
+  <div class="card">
+    <img src="../img/nike3.png" class="card-img-top" alt="Zapatilla 4" data-bs-toggle="modal" data-bs-target="#modal4">
+    <div class="card-body">
+      <h5 class="card-title">Jordan 4 Frozen Moment</h5>
+      <p class="card-text">Zapatillas Nike para mujer</p>
+      <p class="card-text">$289.999</p>
+    </div>
+  </div>
+</div>
+
+<!-- Card 5 -->
+<div class="col-md-3">
+  <div class="card">
+    <img src="../img/adidas3.png" class="card-img-top" alt="Zapatilla 5" data-bs-toggle="modal" data-bs-target="#modal5">
+    <div class="card-body">
+      <h5 class="card-title">Nike dunk low pink</h5>
+      <p class="card-text">Zapatillas Nike para mujer</p>
+      <p class="card-text">$39.999</p>
+    </div>
+  </div>
+</div>
+
+<!-- Card 6 -->
+<div class="col-md-3">
+  <div class="card">
+    <img src="../img/adidas4.png" class="card-img-top" alt="Zapatilla 6" data-bs-toggle="modal" data-bs-target="#modal6">
+    <div class="card-body">
+      <h5 class="card-title">Nike Blazer Mid 77</h5>
+      <p class="card-text">Zapatillas Nike para mujer</p>
+      <p class="card-text">$79.999</p>
+    </div>
+  </div>
+</div>
+
+<!-- Card 7 -->
+<div class="col-md-3">
+  <div class="card">
+    <img src="../img/adidas5.png" class="card-img-top" alt="Zapatilla 7" data-bs-toggle="modal" data-bs-target="#modal7">
+    <div class="card-body">
+      <h5 class="card-title">Nike Air Force 1</h5>
+      <p class="card-text">Zapatillas Nike para mujer</p>
+      <p class="card-text">$249.999</p>
+    </div>
+  </div>
+</div>
+
+<!-- Card 8 -->
+<div class="col-md-3">
+  <div class="card">
+    <img src="../img/adidas6.png" class="card-img-top" alt="Zapatilla 8" data-bs-toggle="modal" data-bs-target="#modal8">
+    <div class="card-body">
+      <h5 class="card-title">Adidas 4DFWD</h5>
+      <p class="card-text">Zapatillas Nike para mujer</p>
+      <p class="card-text">$149.999</p>
+    </div>
+  </div>
+</div>
+
+<!-- Card 9 -->
+  <div class="col-md-3">
+    <div class="card">
+      <img src="../img/nike_jordan.png" class="card-img-top" alt="Zapatilla 1" data-bs-toggle="modal" data-bs-target="#modal1">
+      <div class="card-body">
+        <h5 class="card-title">Nike dunk low</h5>
+        <p class="card-text">Zapatillas Nike para mujer</p>
+        <p class="card-text">$239.999</p>
       </div>
-      <!-- Card 10 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/nike_mujer1.png" class="card-img-top" alt="Zapatilla 10">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 10</h5>
-            <p class="card-text">Adidas Originals</p>
-          </div>
-        </div>
+    </div>
+  </div>
+
+  <!-- Card 10 -->
+  <div class="col-md-3">
+    <div class="card">
+      <img src="../img/nike1.png" class="card-img-top" alt="Zapatilla 2" data-bs-toggle="modal" data-bs-target="#modal2">
+      <div class="card-body">
+        <h5 class="card-title">Nike dunk sb</h5>
+        <p class="card-text">Zapatillas Nike para mujer</p>
+        <p class="card-text">$209.999</p>
       </div>
-      <!-- Card 11 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/nike_mujer2.png" class="card-img-top" alt="Zapatilla 11">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 11</h5>
-            <p class="card-text">Adias ultraboost</p>
-          </div>
-        </div>
+    </div>
+  </div>
+
+  <!-- Card 11 -->
+  <div class="col-md-3">
+    <div class="card">
+      <img src="../img/nike2.png" class="card-img-top" alt="Zapatilla 3" data-bs-toggle="modal" data-bs-target="#modal3">
+      <div class="card-body">
+        <h5 class="card-title">Nike dunk low green</h5>
+        <p class="card-text">Zapatillas Nike para mujer</p>
+        <p class="card-text">$239.999</p>
       </div>
-      <!-- Card 12 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="../img/nike_mujer3.png" class="card-img-top" alt="Zapatilla 12">
-          <div class="card-body">
-            <h5 class="card-title">Zapatilla 12</h5>
-            <p class="card-text">Adidas Adistar</p>
-          </div>
+    </div>
+  </div>
+
+  <!-- Card 12 -->
+  <div class="col-md-3">
+    <div class="card">
+      <img src="../img/nike3.png" class="card-img-top" alt="Zapatilla 4" data-bs-toggle="modal" data-bs-target="#modal4">
+      <div class="card-body">
+        <h5 class="card-title">Jordan 4 Frozen Moment</h5>
+        <p class="card-text">Zapatillas Nike para mujer</p>
+        <p class="card-text">$289.999</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel1">Nike dunk low</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/nike_jordan.png" class="img-fluid" alt="Nike dunk low">
+        <p>Zapatillas Nike para mujer, diseño elegante y confort.</p>
+        <p>Precio: $239.999</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel2">Nike dunk sb</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/nike1.png" class="img-fluid" alt="Nike dunk sb">
+        <p>Zapatillas Nike para mujer, perfecta combinación de estilo y funcionalidad.</p>
+        <p>Precio: $209.999</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel3">Nike dunk low green</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/nike2.png" class="img-fluid" alt="Nike dunk low green">
+        <p>Zapatillas Nike para mujer, con diseño moderno y vibrante.</p>
+        <p>Precio: $239.999</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel4">Jordan 4 Frozen Moment</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/nike3.png" class="img-fluid" alt="Jordan 4 Frozen Moment">
+        <p>Zapatillas Nike para mujer, con un estilo audaz y exclusivo.</p>
+        <p>Precio: $289.999</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel5">Nike dunk low pink</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/adidas3.png" class="img-fluid" alt="Nike dunk low pink">
+        <p>Zapatillas Nike para mujer, un diseño moderno y cómodo.</p>
+        <p>Precio: $39.999</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modalLabel6" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel6">Nike Blazer Mid 77</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/adidas4.png" class="img-fluid" alt="Nike Blazer Mid 77">
+        <p>Elegantes zapatillas Nike Blazer, ideales para cualquier ocasión.</p>
+        <p>Precio: $79.999</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 7 -->
+<div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modalLabel7" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel7">Nike Air Force 1</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/adidas5.png" class="img-fluid" alt="Nike Air Force 1">
+        <p>Iconicas zapatillas Nike Air Force 1, reconocidas por su comodidad y estilo.</p>
+        <p>Precio: $249.999</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 8 -->
+<div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modalLabel8" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel8">Adidas 4DFWD</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/adidas6.png" class="img-fluid" alt="Adidas 4DFWD">
+        <p>Zapatillas Adidas 4DFWD, combinando tecnología y diseño.</p>
+        <p>Precio: $149.999</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <!-- Modal 9 -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalLabel1">Nike dunk low</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="../img/nike_jordan.png" class="img-fluid" alt="Nike dunk low">
+          <p>Zapatillas Nike para mujer, diseño elegante y confort.</p>
+          <p>Precio: $239.999</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Modal 10 -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalLabel2">Nike dunk sb</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="../img/nike1.png" class="img-fluid" alt="Nike dunk sb">
+          <p>Zapatillas Nike para mujer, perfecta combinación de estilo y funcionalidad.</p>
+          <p>Precio: $209.999</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 11 -->
+  <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalLabel3">Nike dunk low green</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="../img/nike2.png" class="img-fluid" alt="Nike dunk low green">
+          <p>Zapatillas Nike para mujer, con diseño moderno y vibrante.</p>
+          <p>Precio: $239.999</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 12 -->
+  <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalLabel4">Jordan 4 Frozen Moment</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="../img/nike3.png" class="img-fluid" alt="Jordan 4 Frozen Moment">
+          <p>Zapatillas Nike para mujer, con un estilo audaz y exclusivo.</p>
+          <p>Precio: $289.999</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+ 
   </main>
-
 </body>
 
 <!-- Footer -->
@@ -200,6 +458,3 @@
 </footer>
 
 </html>
-
-
-
